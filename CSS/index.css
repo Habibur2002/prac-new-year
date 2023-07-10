@@ -16,9 +16,13 @@ header {
     background-size: cover;
     display: flex;
     align-items: right;
+ 
 
 }
-
+.image{
+    background-image: url(../images/person.png);
+    background-size: cover;
+}
 .header-documents {
     width: 40%;
     position: absolute;
