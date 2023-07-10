@@ -117,5 +117,50 @@ header {
 }
 /* this section is for footer styling */
 
+footer{
+    display: flex;
+    background-color: #151414;
+    height: 500px;
+    width: 100vw;
+    gap: 5%;
+    color: aliceblue;
+    font-size: 18px;
+    justify-content: space-around;
+}
+.footer-content{
+    width: 35%;
+    position: relative;
+    top: 100px;
+}
+.footer-content p{
+    padding: 10px;
+    margin: 10px;
+}
+.footer-content ul{
+    display: flex;
+    gap: 10px;
+}
+.footer-content ul li{
+    list-style: none;}
 
-
+.footer-content h4{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+input{
+    display: block;
+    margin: 10px;
+    border: 2px solid gray;
+}
+input[type="email"]{
+    border-radius: 5px;
+    height: 50px;
+    background-color: #151414;
+}
+input[type="button"]{
+    background-color: azure;
+    color: #F15B22;
+    padding: 20px 35px;
+    font-size: 20px;
+}
